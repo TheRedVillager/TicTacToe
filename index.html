@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Otomanopee+One">
+    <script type="text/javascript" src="code.js"></script>
+</head>
+<body>
+    
+    <div class="screen">
+        <div onclick="ButtonClick(0)" class="button" id="button0" data-tilt data-tilt-scale="1.1" data-tilt-glare data-tilt-max-glare="0.8" data-tilt-reverse="true"></div>
+        <div onclick="ButtonClick(1)" class="button" id="button1" data-tilt data-tilt-scale="1.1" data-tilt-glare data-tilt-max-glare="0.8" data-tilt-reverse="true"></div>
+        <div onclick="ButtonClick(2)" class="button" id="button2" data-tilt data-tilt-scale="1.1" data-tilt-glare data-tilt-max-glare="0.8" data-tilt-reverse="true"></div>
+        <div onclick="ButtonClick(3)" class="button" id="button3" data-tilt data-tilt-scale="1.1" data-tilt-glare data-tilt-max-glare="0.8" data-tilt-reverse="true"></div>
+        <div onclick="ButtonClick(4)" class="button" id="button4" data-tilt data-tilt-scale="1.1" data-tilt-glare data-tilt-max-glare="0.8" data-tilt-reverse="true"></div>
+        <div onclick="ButtonClick(5)" class="button" id="button5" data-tilt data-tilt-scale="1.1" data-tilt-glare data-tilt-max-glare="0.8" data-tilt-reverse="true"></div>
+        <div onclick="ButtonClick(6)" class="button" id="button6" data-tilt data-tilt-scale="1.1" data-tilt-glare data-tilt-max-glare="0.8" data-tilt-reverse="true"></div>
+        <div onclick="ButtonClick(7)" class="button" id="button7" data-tilt data-tilt-scale="1.1" data-tilt-glare data-tilt-max-glare="0.8" data-tilt-reverse="true"></div>
+        <div onclick="ButtonClick(8)" class="button" id="button8" data-tilt data-tilt-scale="1.1" data-tilt-glare data-tilt-max-glare="0.8" data-tilt-reverse="true"></div>
+    </div>
+    
+    <div class="winscreen">
+        <p class="winnerdisplay">PLAYER WON!</p>
+        <p class="buttonP" onclick="location.reload();">Play again</p>
+    </div>
+    <div class="cursor"></div>
+
+    <script type="text/javascript" src="cursor.js"></script>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+</body>
+</html>
